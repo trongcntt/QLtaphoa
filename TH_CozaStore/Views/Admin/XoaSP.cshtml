@@ -1,0 +1,89 @@
+﻿@model TH_CozaStore.Models.tSanPham
+
+@{
+    ViewBag.Title = "XoaSP";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<h2>XoaSP</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>tSanPham</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenSP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenSP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaBan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaBan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaNhap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaNhap)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.loaiSP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.loaiSP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Anh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Anh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioiThieu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioiThieu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tAnh.TenFileAnh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tAnh.TenFileAnh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tLoaiSP.TenLoaiSP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tLoaiSP.TenLoaiSP)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

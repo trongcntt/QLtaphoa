@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bea5fc7094ff4bbd86b2fdd9cf5eb5dc" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tAccount" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tAnh" Width="1.5" PointX="8.25" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tCaLam" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tChiTietHDN" Width="1.5" PointX="8.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tChiTietHoaDon" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tChucNang" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tHoaDonBan" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tHoaDonNhap" Width="1.5" PointX="6" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tKhachHang" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tLoaiSP" Width="1.5" PointX="3.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tNhaCungCap" Width="1.5" PointX="3.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tNhanVien" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.TongLuong" Width="1.5" PointX="3" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tSanPham" Width="1.5" PointX="6" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tTKKhachHang" Width="1.5" PointX="3" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyTapHoa2Model.tTkNhanVien" Width="1.5" PointX="3" PointY="16.375" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_AnhsP" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_MaCalam" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_HoaDonNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_MaSP" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_MaDSP" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_MaKH" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_MaNVB" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_MaNCC" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_MaNV" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_KHHH" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_LoaisP" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_LuongNV" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyTapHoa2Model.fk_tkNV" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
